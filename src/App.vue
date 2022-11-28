@@ -26,11 +26,16 @@
 </template>
 
 <style>
+@font-face {
+  src: url('./assets/Roboto-Regular.ttf');
+  font-family: 'Roboto Regular';
+}
 
 * {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: 'Roboto Regular';
 }
 
 #app {
@@ -51,10 +56,11 @@
   padding: 20px;
   background-color: #15273f;
   border-radius: 12px;
-  color: #8ca0bb;
+  color: #8ca0bbc7;
   font-size: 13px;
   line-height: 20px;
   transition: 0.4s;
+  letter-spacing: 0.5px;
 }
 
 .card:hover {
